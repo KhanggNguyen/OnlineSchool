@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/question_response"
+    android:clickable="true"
+    android:layout_gravity="center_horizontal"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:focusable="true"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/enonce"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enonce"
+            android:layout_margin="10dp"
+            android:id="@+id/image"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/image"
+            android:id="@+id/question"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/question"
+            android:layout_margin="10dp"
+            android:id="@+id/response"/>
+
+        <Button
+            android:id="@+id/show_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_below="@id/response"
+            android:layout_alignParentBottom="false"
+            android:text="@string/show_answer"
+            android:layout_centerHorizontal="true"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/show_answer"
+            android:background="@color/lightgray"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

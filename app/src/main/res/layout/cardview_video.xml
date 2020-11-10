@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/cardview_video"
+    android:layout_gravity="center_horizontal"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:orientation="horizontal">
+
+        <VideoView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:id="@+id/video"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/play"
+            android:layout_below="@id/video"
+            android:text="@string/play"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pause"
+            android:layout_below="@id/video"
+            android:text="@string/pause"
+            android:layout_toRightOf="@id/play"
+            android:layout_toEndOf="@id/play" />
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

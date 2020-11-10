@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Ecole en ligne</string>
+    <string name="title_activity_login">Authentification</string>
+    <string name="prompt_email">Adresse mail</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign_in">Se connecter</string>
+    <string name="action_sign_in_short">Se connecter</string>
+    <string name="welcome">"Bienvenue ! "</string>
+    <string name="invalid_username">Le pseudo n\'est pas validé.</string>
+    <string name="invalid_password">Le mot de passe doit être supérieur à 5 caractères.</string>
+    <string name="login_failed">Echec de connexion.</string>
+    <string name="prompt_username">Pseudo</string>
+    <string name="action_register">S\'enregistrer</string>
+    <string name="prompt_age">Âge</string>
+    <string name="prompt_name">Nom de l\'utilisateur</string>
+    <string name="rg_parent">Parent</string>
+    <string name="rg_student">Elève</string>
+    <string name="messageRegisterRole">Veuillez cocher la case.</string>
+    <string name="messageRegisterFailed">Inscription échoué !</string>
+    <string name="messageRegisterRetry">Réessayer!</string>
+    <string name="prompt_address">Adresse</string>
+    <string name="messageRegisterFillError">Veuillez remplir ce champ.</string>
+    <string name="LoginHereLink">Se connecter</string>
+    <string name="messageErrorPasswordLength">Le mdp doit contenir >= 6 charactères.</string>
+    <string name="CreatedUser">Utilisateur créé. Veuillez vérifier votre adresse mail pour activer le compte.</string>
+    <string name="CreatedUserError">Erreur :</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="LoginUserSuccessful">Connecté</string>
+
+    <string name="LoginUserNotVerified">Veuillez vérifier votre adresse mél.</string>
+    <string name="RegisterParent">S\'inscrire en tant que parent</string>
+    <string name="ResetPassword">Réinitialiser le mdp</string>
+    <string name="ModifyProfile">Modifier</string>
+    <string name="AddStudent">Ajouter élève</string>
+    <string name="bSchoolYears">Choisir les années scolaires concernées.</string>
+
+    <string-array name="grade_item">
+        <item>Sixième</item>
+        <item>Cinquième</item>
+        <item>Quatrième</item>
+        <item>Troisième</item>
+        <item>Seconde</item>
+        <item>Première</item>
+        <item>Terminale</item>
+    </string-array>
+
+    <string-array name="formula">
+        <item>Progression</item>
+        <item>Accompagné</item>
+    </string-array>
+
+    <string name="bCancel">Annuler</string>
+    <string name="bClearAll">Ràz</string>
+    <string name="hello_blank_fragment">hello</string>
+    <string name="OptionMessageRegisterStudentFragment">"Vous avez choisi : "</string>
+    <string name="courses">Cours</string>
+    <string name="History">Dernières Activités</string>
+    <string name="LiveLesson">Cours en temps réel</string>
+    <string name="Chat">Messages</string>
+    <string name="consult_courses">Consulter les cours</string>
+    <string name="consult_history">Visualiser les activités récemment</string>
+    <string name="consult_chat">Consulter les messages</string>
+    <string name="consult_live">Consulter les cours en temps réel</string>
+    <string name="lesson">Cours</string>
+    <string name="video">Video</string>
+    <string name="exercices">Exercices</string>
+    <string name="quiz">Quiz</string>
+    <string name="previous_page">Retour</string>
+    <string name="play">Lire</string>
+    <string name="pause">Stop</string>
+    <string name="RegisterStudent">S\'inscrire en tant qu\'élève</string>
+    <string name="totalQuestions">"Total Questions "</string>
+    <string name="correctAnswer">Bonnes réponses</string>
+    <string name="Done">Fin</string>
+    <string name="show_answer">Correction</string>
+    <string name="notifications">Notifications</string>
+    <string name="live">Live</string>
+    <string name="Profile">Profil</string>
+    <string name="Home">Accueil</string>
+    <string name="activity_history">Historique</string>
+    <string name="check_connection">Récemment connectés</string>
+    <string name="last_connection">Les connexions récentes</string>
+    <string name="reminder">Ajouter les rappels</string>
+    <string name="reminder_string">Ajouter un rappel</string>
+    <string name="Recommandation">Recommandation</string>
+    <string name="Recommandation_string">Consulter les recommandés</string>
+    <string name="cardview_history_title">Fiche de cours</string>
+    <string name="title_history_student">Mes activités récentes</string>
+    <string name="students_list">Liste des élèves</string>
+    <string name="students_list_string">Consulter mes élèves</string>
+    <string name="ParentStudentActionList">"Liste des actions "</string>
+    <string name="enter_a_message_string">Saisir un message</string>
+    <string name="consult_users">Voir liste des utilisateurs</string>
+    <string name="user_string">Liste des utilisateurs</string>
+    <string name="bFormulas_string">Choisir le formule préféré</string>
+    <string name="bExtend_string">Prolonger</string>
+    <string name="Date_Expiration">Date d\'expiration :</string>
+    <string name="Subscription_right_problem">Votre abonnement ne permet pas d\'utiliser cette fonction. Veuillez aller dans la page de profile afin de changer le type d\'abonnement vers Accompagné ou prolonger votre abonnement s\'il est expiré.</string>
+    <string name="AddStudent_string">Ajouter un élève</string>
+    <string name="quiz_done_string">Visualiser les QCM réalisés</string>
+    <string name="change_subscription">Changer son abonnement</string>
+    <string name="extend_subscription">Prolonger son abonnement</string>
+    <string name="details">Détail</string>
+    <string name="date">Date</string>
+    <string name="time">Heure</string>
+</resources>
